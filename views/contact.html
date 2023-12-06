@@ -30,23 +30,28 @@
 
     </header>
 
-    <section>
-        <div class="section-content">
-            <div class="hotel-intro">
-                <h2>Contato</h2>
-                <h4>Recife, Pernambuco, Brasil</h4>
-                <p>Email - hotelparaiso@gmail.com.ex</p>
-                <p>Telefone - (81) 98765-4321</p>
-            </div>
+    <main>
+        <div class="search">
+            <label for="nome">Nome</label>
+            <input class="input" type="text" id="nome" name="nome" placeholder="Nome">
 
-            <picture class="img-waterfall">
-                <img src="../img/waterfall.jpg" alt="hotel" >
-            </picture>
+            <label for="email">Email</label>
+            <input class="input" type="text" id="email" name="email" placeholder="Email">
+
+            <label for="phone">Telefone</label>
+            <input class="input" type="text" id="phone" name="phone" placeholder="(DDD)Telefone">
+
+            <label for="opnion">Deixe sua opnião</label>
+            <textarea name="opnion" id="opnion" cols="60" rows="15"></textarea>
+
+            <button class="btn">Enviar</button>
         </div>
-    </section>
+    </main>
 
     <footer>
         <p>Front 2023</p>
     </footer>
+
+    <script src="../JS/contact.js"></script>
 </body>
 </html>
